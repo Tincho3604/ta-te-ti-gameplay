@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "../public/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="title-container">
+            <h1>Welcome to ta-te-ti challange</h1>
+        </div>
+        <div class="score-container">
+            <div class="count-container">
+                <div>
+                    <h2>Score</h2>
+                    <div class="button-container">
+                        <button class="button-box" onclick="restartMatch(this)">Start / Restart</button>
+                        <button class="button-box" onclick="restartGlobalScore()">Restart Global Score</button>
+                    </div>
+                </div>
+                <div class="points-container">
+                    <div class="wins">
+                        <h3>Wins</h3>
+                        <span class="count-wins"></span>
+                    </div>
+                    <div class="draws">
+                        <h3>Draws</h3>
+                        <span class="count-draws">2</span>
+                    </div>
+                    <div class="loses">
+                        <h3>Loses</h3>
+                        <span class="count-loses"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ta-te-ti-main-container">
+        <div class="ta-te-ti-container">
+            <div class="grid-container">
+            </div>
+        </div>
+        </div>
+    </div> 
+    <script src="../src/index.js"></script>
+    <script src="js/interfaces.js"></script>
+    </body>
+</html>

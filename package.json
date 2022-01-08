@@ -1,0 +1,20 @@
+{
+  "name": "ta-te-ti-gameplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tincho3604/ta-te-ti-gameplay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tincho3604/ta-te-ti-gameplay/issues"
+  },
+  "homepage": "https://github.com/Tincho3604/ta-te-ti-gameplay#readme"
+}
